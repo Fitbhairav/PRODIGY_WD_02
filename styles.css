@@ -1,0 +1,55 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+body {
+  background-color: grey;
+}
+  
+  h1 {
+    text-align: center;
+    color: yellow;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: rgb(37, 194, 37);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+  }
+  
+  .task-completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
